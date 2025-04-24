@@ -78,6 +78,6 @@ Link: https://www.vastdata.com/blog
 🎬 The bot will scrape the article, summarize it with AI, generate an avatar video with narration, and upload it to your YouTube channel — fully automated.
 
 A DEMO VIDEO IS HERE:   (CLICK BELOW IMAGE FOR DEMO VIDEO)
-[![Watch the demo](https://github.com/urstruly-bunny/AI-Powered-Telegram-Workflow/blob/main/WORKFLOW%20IMAGE.png)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![Watch the demo](https://github.com/urstruly-bunny/AI-Powered-Telegram-Workflow/blob/main/WORKFLOW%20IMAGE.png)](https://www.youtube.com/watch?v=f0_DZIoHowc)
 
 
