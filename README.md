@@ -4,6 +4,8 @@ An AI-powered automation workflow triggered via Telegram that:  Scrapes and summ
 
 🚀 This project is a fully automated and production-ready **n8n workflow** that transforms blog/article links into **AI-generated avatar videos**, triggered directly from **Telegram**.
 
+![Workflow Screenshot](https://github.com/urstruly-bunny/AI-Powered-Telegram-Workflow/blob/main/WORKFLOW%20IMAGE.png)
+
 ---
 
 ## 🧠 Overview
