@@ -77,5 +77,7 @@ Subject: Recent Software changes
 Link: https://www.vastdata.com/blog
 🎬 The bot will scrape the article, summarize it with AI, generate an avatar video with narration, and upload it to your YouTube channel — fully automated.
 
-A DEMO VIDEO IS
+A DEMO VIDEO IS HERE:
+[![Watch the demo](https://github.com/urstruly-bunny/AI-Powered-Telegram-Workflow/blob/main/WORKFLOW%20IMAGE.png)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
 
