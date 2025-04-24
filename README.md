@@ -1,5 +1,5 @@
 
-# 🤖 AI-Powered Telegram Bot Workflow for Video Summarization using n8n
+# 🤖 AI-Powered Telegram Bot Workflow for AI AVATAR VIDEO Generation and Upload to Youtube using n8n
 An AI-powered automation workflow triggered via Telegram that:  Scrapes and summarizes blog content using OpenRouter  Converts the summary to a realistic avatar video using HeyGen (for both voice and avatar)   Publishes the generated video to YouTube
 
 🚀 This project is a fully automated and production-ready **n8n workflow** that transforms blog/article links into **AI-generated avatar videos**, triggered directly from **Telegram**.
